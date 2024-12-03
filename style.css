@@ -11,14 +11,31 @@ h1{
 }
 
 form{
+    display: flex;
     grid-row: 3;
     justify-items: center;
-}
-
-input[type=text]{
+    align-items: center;
+    justify-self: center;
     width: 90%;
     height: 3em;
     border-radius: 53px;
+    border: solid 1px white;
+}
+
+input[type=text]{
     background-color: #242424;
+    width: 95%;
+    border: none;
+    margin-top: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button[type=submit]{
+    border: none;
+    border-radius: 50px;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 800;
 }
 
