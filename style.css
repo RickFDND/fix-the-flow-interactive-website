@@ -25,8 +25,11 @@ p{
 }
 
 .other{
-   justify-self: right;
    background-color: darkblue;
+   &:not([hidden]) {
+    display: flex;
+    justify-self: right;
+   }
 }
 
 form{
@@ -39,6 +42,9 @@ form{
     height: 3em;
     border-radius: 53px;
     border: solid 1px white;
+    p{
+        background-color: white;
+    }
 }
 
 input[type=text]{
