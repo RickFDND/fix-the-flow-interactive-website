@@ -11,21 +11,35 @@ h1{
 }
 
 p{
-    background-color:#242424;
+    padding: 2%;
     min-height: 35px; 
-    width: 70%;
-    border-radius: 50px;
+    max-width: 70%;
+    border-radius: 30px;
     text-align: center;
 
     &:not([hidden]) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+      
     }
 }
 
+.first-message{
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.bot{
+    background-color: white;
+    color: black;
+}
+
+div{
+    overflow: scroll;
+}
+
 .other{
-   background-color: darkblue;
+    background-color: #242424;
+
    &:not([hidden]) {
     display: flex;
     justify-self: right;
