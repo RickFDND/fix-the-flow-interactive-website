@@ -194,3 +194,17 @@ article{
     }
 }
 
+.vier-rouwtaken{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    flex-grow: 1;
+    flex-basis: 200;
+
+    img{
+        width: 50%;
+    }
+}
+
