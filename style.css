@@ -10,10 +10,6 @@ header{
     grid-row: 1;
 }
 
-main{
-    display: grid;
-}
-
 nav{
     grid-row: 3;
     display: flex;
@@ -31,6 +27,10 @@ a{
 
 article{
     align-self: flex-end;
+}
+
+.laadbalk{
+    height: 2.24px;
 }
 
 /*Chat*/
@@ -165,7 +165,7 @@ button[type=submit]{
     100% { opacity: 0; } 
 }
 
-/*mediaqueries start pagina*/
+/*mediaqueries start & introductie*/
 @media (min-width: 940px){
 .main-start{
     grid-template-columns: 6fr 4fr;
@@ -173,4 +173,24 @@ button[type=submit]{
 article{
     align-self: flex-start;
 }
+.uitleg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
+}
+
+.main-start{
+    display: grid;
+}
+
+/*Introductie*/
+
+.uitleg{
+    display: grid;
+    justify-content: center;
+    p{
+       max-width: 380px; 
+    }
+}
+
