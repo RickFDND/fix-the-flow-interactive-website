@@ -25,16 +25,11 @@ a{
     align-items: center;
 }
 
-article{
-    align-self: flex-end;
-}
-
 .laadbalk{
     height: 2.24px;
 }
 
 /*Chat*/
-
 .chat-titel{
     grid-row: 1;
 }
@@ -106,7 +101,6 @@ button[type=submit]{
 }
 
 /*images*/
-
 .blauwegradient{
     position: absolute;
     width: 100%;
@@ -117,7 +111,6 @@ button[type=submit]{
 }
 
 /*slideshow*/
-
 .slideshow {
     z-index: 100;
     margin:auto;
@@ -185,7 +178,6 @@ article{
 }
 
 /*Introductie*/
-
 .uitleg{
     display: grid;
     justify-content: center;
@@ -194,17 +186,75 @@ article{
     }
 }
 
-.vier-rouwtaken{
-    display: flex;
-    flex-wrap: wrap;
+.introductietekst, .privacy, .rouwtaken, .tools{
+    align-self: flex-end;
 }
 
-section{
-    flex-grow: 1;
-    flex-basis: 200;
+/*rouwtaken*/
+.vier-rouwtaken{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    max-height: 536.35px;
 
     img{
-        width: 50%;
+       width: 28.95%;
+       max-width: 110px;
+       align-self: center;
+    }
+    h2, p{
+        margin: 0;
     }
 }
+
+.rouwtext{
+    max-width: 300px;
+}
+
+.blue, .yellow, .red, .pink{
+    display: flex;
+    gap: 10px;
+    max-height: 132.59px;
+}
+
+/*rouwtaken mediaqueries*/
+@media (min-width:750px){
+    .vier-rouwtaken{
+        grid-template-rows: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 15px;
+        
+       
+        img{
+            width: 50%;
+            max-width: 280px;
+        }
+    }
+    .blue, .yellow, .red, .pink{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        margin-top: 3em;
+    }
+}
+
+/*hover images*/
+@media (min-width:1100px){
+    .rouwtext{
+        opacity: 0;
+        transition: opacity 0.6s ease;
+    }
+        img:hover + .rouwtext,
+        .blue:hover .rouwtext,
+        .yellow:hover .rouwtext,
+        .red:hover .rouwtext,
+        .pink:hover .rouwtext,
+        img:hover {
+            opacity: 1;
+            width: 70%;
+            max-width: 340px;
+    }
+}
+
+  
+
 
