@@ -158,12 +158,25 @@ button[type=submit]{
     100% { opacity: 0; } 
 }
 
+/*Introductie*/
+.uitleg{
+    display: grid;
+    justify-content: center;
+    p{
+       max-width: 380px; 
+    }
+}
+
+.introductietekst{
+    align-self: flex-end;
+}
+
 /*mediaqueries start & introductie*/
 @media (min-width: 940px){
 .main-start{
     grid-template-columns: 6fr 4fr;
 }
-article{
+.introductietekst{
     align-self: flex-start;
 }
 .uitleg{
@@ -175,19 +188,6 @@ article{
 
 .main-start{
     display: grid;
-}
-
-/*Introductie*/
-.uitleg{
-    display: grid;
-    justify-content: center;
-    p{
-       max-width: 380px; 
-    }
-}
-
-.introductietekst, .privacy, .rouwtaken, .tools{
-    align-self: flex-end;
 }
 
 /*rouwtaken*/
