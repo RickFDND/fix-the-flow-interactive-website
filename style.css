@@ -255,6 +255,60 @@ button[type=submit]{
     }
 }
 
-  
+/*vragen*/
+.vragen{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    p{
+        margin-top: 2em;
+    }
+    img{
+        width: 250px;
+        height: 250px;
+    }
+}
+/*vraag1*/
+.vraag-button{
+    width: 90%;
+    height: 40px;
+    max-width: 800px;
+}
+
+.vraag1{
+    display: grid;
+    text-align: center;
+    justify-items: center;
+}
+
+.gradient1{
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    rotate: 180deg;
+}
+
+/*vraag2*/
+.gradient2{
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+/*vraag2*/
+.gradient3{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    rotate: 180deg;
+}
 
 
