@@ -300,7 +300,7 @@ button[type=submit]{
     bottom: 0;
     z-index: -1;
 }
-/*vraag2*/
+/*vraag3*/
 .gradient3{
     position: absolute;
     width: 100%;
@@ -311,4 +311,64 @@ button[type=submit]{
     rotate: 180deg;
 }
 
+/*hoofdmenu*/
+.menu{
+    display: grid;
+    grid-template-rows: 1fr 2fr 7fr;
+    background-color: #242424;
+}
+
+.header-menu{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 6fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.vandaag{
+    grid-column: 1;
+    width: auto;
+    height: 25px;
+}
+
+.praten{
+    grid-column: 2;
+    width: auto;
+    height: 25px;
+}
+
+.drops{
+    grid-column: 3;
+    width: auto;
+    height: 25px;
+}
+
+.profiel{
+    grid-column: 5;
+    width: auto;
+    height: 25px;
+}
+
+.lijn{
+    width: 550px;
+    height: 2.24px;
+    grid-row: 2;
+}
+
+.h1-menu{
+    margin-left: 1.8em;
+}
+
+.logotje{
+    position: absolute;
+    top: 8em;
+    left: 0;
+    height: 60px;
+    width: auto;
+}
+
+.praat-button{
+    border: none;
+    background-color: #242424;
+}
 
