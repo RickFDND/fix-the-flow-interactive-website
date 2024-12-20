@@ -390,14 +390,16 @@ button[type=submit]{
     max-width: 400px;
     gap: 10px;
     div{
-        display: grid;
-        height: 200px;
+        
+        height: 250px;
         background-color: black;
         border-radius: 50px;
         justify-items: center;
         align-items: center;
+        text-align: left;
+        
         img{
-            height: 20px;
+            height: 40px;
             width: auto;
         }
     }
