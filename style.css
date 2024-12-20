@@ -325,6 +325,17 @@ button[type=submit]{
     align-items: center;
 }
 
+.main.menu{
+    display: grid;
+    grid-template-rows: 1fr 1fr 4fr 4fr 4fr;
+    h2{
+        grid-row: 1;
+    }
+    p{
+        grid-row: 2;
+    }
+}
+
 .vandaag{
     grid-column: 1;
     width: auto;
@@ -350,7 +361,8 @@ button[type=submit]{
 }
 
 .lijn{
-    width: 550px;
+    width: 90%;
+    max-width: 650px;
     height: 2.24px;
     grid-row: 2;
 }
@@ -372,3 +384,21 @@ button[type=submit]{
     background-color: #242424;
 }
 
+.oefeningen{
+    display: grid;
+    width: 100%;
+    max-width: 400px;
+    gap: 10px;
+    div{
+        display: grid;
+        height: 200px;
+        background-color: black;
+        border-radius: 50px;
+        justify-items: center;
+        align-items: center;
+        img{
+            height: 20px;
+            width: auto;
+        }
+    }
+}
