@@ -8,7 +8,9 @@ Fix the flow interactive website - Drop&Heal
 
 ## Beschrijving
 Ik ben in sprint 5 bezig geweest met het maken van een micro interactie door middel van het gebruik van Javascript. Je kan door middel van het klikken op een enterknop (met de pijl naar boven) berichten laten verschijnen. 
-<img src="Video_zonder_titel.mp4">
+<video width="320" height="240" controls>
+<source src="Video_zonder_titel.mp4">
+</video>
 https://rickfdnd.github.io/fix-the-flow-interactive-website/chat.html
 
 ## Kenmerken
