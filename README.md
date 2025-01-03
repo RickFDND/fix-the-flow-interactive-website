@@ -4,12 +4,12 @@ Ontwerp en maak een interactieve website voor een opdrachtgever.
 De instructie vind je in: [INSTRUCTIONS.md](https://github.com/fdnd-task/fix-the-flow-interactive-website/blob/main/docs/INSTRUCTIONS.md)
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Fix the flow interactive website - Drop&Heal
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Ik ben in sprint 5 bezig geweest met het maken van een micro interactie door middel van het gebruik van Javascript. Je kan door middel van het klikken op een enterknop (met de pijl naar boven) berichten laten verschijnen. 
+<img src="Video_zonder_titel.mp4">
+https://rickfdnd.github.io/fix-the-flow-interactive-website/chat.html
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
